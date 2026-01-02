@@ -23,11 +23,15 @@ export default function PdfPage() {
     <>
 
     <div>
+
+
       <li className="px-4 py-2 bg-red-600 text-white font-semibold rounded hover:bg-red-700 transition">
-  OUR CERTIFICATE OF INSURANCE
+  CERTIFICATE OF INSURANCE
 </li>
 
     </div>
+
+
     <div className="bg-white">
 
    
