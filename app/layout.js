@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <link
           rel="icon"
-          href="https://i.ibb.co/vCRtf74V/Chat-GPT-Image-Jan-2-2026-03-38-59-PM.png"
+          href="../public/logo.png"
           type="image/png"
         />
       <body
