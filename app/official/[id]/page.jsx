@@ -21,6 +21,13 @@ export default function PdfPage() {
 
   return (
     <>
+
+    <div>
+      <li className="px-4 py-2 bg-red-600 text-white font-semibold rounded hover:bg-red-700 transition">
+  OUR CERTIFICATE OF INSURANCE
+</li>
+
+    </div>
     <div className="bg-white">
 
    
@@ -54,7 +61,7 @@ export default function PdfPage() {
 </div>
 
 <div className="my-[100px]">
- <Image className="w-[50%] mx-auto"
+ <Image className="w-[100%] mx-auto"
       src="https://i.ibb.co/DHDyN7qr/footer-downloadapp-with-qr.png"
       alt="Download App QR"
       width={300}       // pixel value, adjust as needed
