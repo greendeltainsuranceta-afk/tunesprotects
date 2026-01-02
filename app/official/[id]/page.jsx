@@ -24,7 +24,7 @@ export default function PdfPage() {
     <div className="bg-white">
 
    
-<div className="mx-[240px] ">
+<div className="xl:mx-[240px] lg:mx-[240px] md:mx-[50px] mx-[10px] ">
 <div className="text-center">
         <h2 className="bg-[linear-gradient(45deg,#e43a6c_25%,#faa82f_70%)] bg-clip-text text-transparent text-3xl font-bold">
   OUR CERTIFICATE OF INSURANCE
@@ -40,7 +40,7 @@ export default function PdfPage() {
 
 
 </div>
- <div className="mx-[140px]">
+ <div className="xl:mx-[140px] lg:mx-[140px] mx-[8px]">
       {pdf ? (
         <iframe
           src={pdf.file}
