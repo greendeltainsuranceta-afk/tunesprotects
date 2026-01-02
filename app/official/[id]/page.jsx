@@ -66,7 +66,7 @@ export default function PdfPage() {
 </div>
 
 
-<div className="mx-[240px] my-6 ">
+<div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] my-[50px] my-6 ">
 
 <h2 className="font-extrabold text-center text-[#2C2D31] text-[28px] my-6">Emergency Assistance</h2>
 
@@ -119,7 +119,7 @@ US & Canada</p>
 
 
 
-<div className="mx-[240px] my-[50px] text-[#ff0a12] grid xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-baseline">
+<div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] my-[50px] text-[#ff0a12] grid xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 items-baseline">
 
   <div className="text-center">
 <div>
