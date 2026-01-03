@@ -10,8 +10,8 @@ export default function PdfPage() {
 
   const pdfList = [
      { id: "0", name: "PDF Two", file: "/simple.pdf" },
-   { id: "mZ8Q2XK7rP9D4sEWTa", name: "PDF Two", file: "/simple.pdf" },
-    { id: "2Q7P8Z9WmK2dXTEs4Ra", name: "PDF Two", file: "/AdmitCard_ACC_ALQJD94V.pdf" },
+   { id: "mZ8Q2", name: "PDF Two", file: "/simple.pdf" },
+    { id: "2Q7P8Z9WmK2d", name: "PDF Two", file: "/AdmitCard_ACC_ALQJD94V.pdf" },
   ];
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function PdfPage() {
     <div>
 
 
-      <li className="px-4 py-2 bg-red-600 text-white font-semibold rounded hover:bg-red-700 transition">
+      <li className="px-4 py-2 bg-red-600 text-white font-semibold hover:bg-red-700 transition">
   CERTIFICATE OF INSURANCE
 </li>
 
@@ -36,7 +36,7 @@ export default function PdfPage() {
 
    
 <div className="xl:mx-[240px] lg:mx-[240px] md:mx-[50px] mx-[10px] my-[50px]">
-<div className="text-center">
+<div className="text-center my-[50px]">
         <h2 className="bg-[linear-gradient(45deg,#e43a6c_25%,#faa82f_70%)] bg-clip-text text-transparent text-3xl font-bold">
   OUR CERTIFICATE OF INSURANCE
 </h2>
@@ -137,7 +137,7 @@ US & Canada</p>
     <h2 className="font-semibold my-6 text-[17px]">ID for general enquiries</h2>
 </div>
 <div>
-    <p className="font-extrabold text-[20px]">enquiry.emeia@tuneprotect.com</p>
+    <p className="font-extrabold xl:text-[20px] lg:text-[20px] md:text-[20px] text-[13px]">enquiry.emeia@tuneprotect.com</p>
 </div>
 </div>
 
@@ -146,7 +146,7 @@ US & Canada</p>
     <h2 className="font-semibold my-6 text-[17px]">For claims related enquiries</h2>
 </div>
 <div>
-    <p className="font-extrabold text-[20px]">travelassurance@tuneprotect.com</p>
+    <p className="font-extrabold xl:text-[20px] lg:text-[20px] md:text-[20px] text-[13px]">travelassurance@tuneprotect.com</p>
 </div>
 </div>
 

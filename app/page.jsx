@@ -10,10 +10,11 @@ export default function Home() {
     { id: 0, name: "PDF Two", file: "/simple.pdf" }
   ];
 
-  // ✅ page load হতেই প্রথম PDF দেখাবে
+  
   useEffect(() => {
     setPdfUrl(pdfList[0]); // object set
   }, []);
+  
 const pdf = pdfList.find(data => data.id === 0);
 
 
