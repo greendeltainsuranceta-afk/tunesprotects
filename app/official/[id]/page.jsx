@@ -9,11 +9,11 @@ export default function PdfPage() {
   const [pdf, setPdf] = useState(null);
 
   const pdfList = [
-     { id: "0", name: "PDF Two", file: "/simple.pdf" },
+     { id: "2Q9Wfdsfsf0001345", name: "PDF Two", file: "/222.pdf" },
      { id: "2Q7P8Z9WmK2ertredfsdfsdfsdtrtd-DELWdffsdfsdfAR-HOSSAIN-T2P-2025-BDB2B-0001345", name: "PDF Two", file: "/4.pdf" },
     { id: "2Q7P8Z9WmK2d-DELWAR-HOSSAIN-T2P-2025-BDB2B-0001345", name: "PDF Two", file: "/DELWAR-HOSSAIN-T2P-2025-BDB2B-0001345.pdf" },
   ];
-
+// 88
 
   useEffect(() => {
     const selectedPdf = pdfList.find((p) => p.id === id);
