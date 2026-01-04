@@ -8,7 +8,7 @@ const Header = () => {
       
   <div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] flex gap-4 xl:w-max w-full ">
 
-        {/* Left: Logo */}
+        {/* Left: Logo.... */}
       <div className="navbar-start xl:justify-normal lg:justify-normal  justify-between flex  w-full">
         {/* Mobile Menu */}
         <div className="dropdown">

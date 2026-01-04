@@ -21,13 +21,7 @@ export default function QRGenerator() {
 
 
 
-// generate URL
-const baseURL = "https://tunesprotect.com/official/";
-const randomPart = randomToken(12);  // 12 characters random
-const fixedPart = "-T2P-2025-BDB2B-0001345";
 
-const url = baseURL + randomPart + fixedPart;
-console.log(url);
 
 
   return (
