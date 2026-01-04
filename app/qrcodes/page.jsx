@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import QRCode from "qrcode";
+import Image from "next/image";
 
 export default function QRGenerator() {
   const [link, setLink] = useState("");
@@ -49,7 +50,7 @@ export default function QRGenerator() {
       {qrSrc && (
         <div style={{ marginTop: "30px" }}>
           <h3>QR Code:</h3>
-          <img src={qrSrc} alt="QR Code" width="250" height="250" />
+          <Image src={qrSrc} alt="QR Code" width="250" height="250" />
           <p>
             <a className="border-2 px-6 py-2 bg-red-500 text-black" href={qrSrc} download="qr-code.png">
               👉 Download QR Code
