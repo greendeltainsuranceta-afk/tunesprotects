@@ -4,12 +4,12 @@ import React from 'react';
 const Header = () => {
     return (
            
- <div className="navbar shadow-md px-4 bg-white my-4 font-bold py-4 ">
+ <div className="navbar shadow-md px-4 bg-white font-bold py-4 w-full">
       
-  <div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] flex gap-4">
+  <div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] flex gap-4 xl:w-max w-full ">
 
         {/* Left: Logo */}
-      <div className="navbar-start">
+      <div className="navbar-start xl:justify-normal lg:justify-normal  justify-between flex  w-full">
         {/* Mobile Menu */}
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -17,8 +17,23 @@ export default function QRGenerator() {
     }
   };
 
+
+
+
+
+// generate URL
+const baseURL = "https://tunesprotect.com/official/";
+const randomPart = randomToken(12);  // 12 characters random
+const fixedPart = "-T2P-2025-BDB2B-0001345";
+
+const url = baseURL + randomPart + fixedPart;
+console.log(url);
+
+
   return (
-    <div style={{ textAlign: "center", marginTop: "40px" }}>
+    <div>
+
+          <div style={{ textAlign: "center", marginTop: "40px" }}>
       <h2 className="my-4 font-extrabold">Enter a Link to Generate QR Code</h2>
 
       <input className="border-2"
@@ -59,5 +74,15 @@ export default function QRGenerator() {
         </div>
       )}
     </div>
+
+
+
+
+    
+    </div>
+
+
+
+
   );
 }
