@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import Footer from "./Footer/Footer";
+import Image from "next/image";
+import Header from "./Header/Header";
 
 export default function Home() {
   const [pdfUrl, setPdfUrl] = useState(null);
@@ -13,25 +15,26 @@ export default function Home() {
     <>
 
 
+<Header></Header>
 
 {/* header */}
 
 
 
 
-      <div>
+      {/* <div>
 
 
       <li className="px-4 py-2 bg-red-600 text-white font-semibold hover:bg-red-700 transition">
   CERTIFICATE OF INSURANCE
 </li>
 
-    </div>
+    </div> */}
 
   
  <div className="min-h-screen bg-gray-50 text-gray-800">
 {/* Header */}
-<header className="bg-white shadow">
+{/* <header className="bg-white shadow">
 <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 <h1 className="text-2xl font-bold text-blue-600">INSURANCE</h1>
 <nav className="hidden md:flex gap-6 text-sm font-medium">
@@ -41,7 +44,7 @@ export default function Home() {
 
 </nav>
 </div>
-</header>
+</header> */}
 
 
 {/* Hero Section (NO MAP) */}

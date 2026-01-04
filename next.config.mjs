@@ -5,7 +5,7 @@ const nextConfig = {
 
   reactStrictMode: true,
   images: {
-    domains: ['i.ibb.co'], // এখানে hostname add করতে হবে
+    domains: ['i.ibb.co', "www.tuneprotect.com"], // এখানে hostname add করতে হবে
   },
 
   

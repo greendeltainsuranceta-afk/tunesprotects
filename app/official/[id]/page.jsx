@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Footer from "@/app/Footer/Footer";
+import Header from "@/app/Header/Header";
 
 export default function PdfPage() {
   const { id } = useParams();
@@ -22,17 +23,17 @@ export default function PdfPage() {
 
   return (
     <>
-
+<Header></Header>
 
   <div>
 
 
-      <li className="px-4 py-2 bg-red-600 text-white font-semibold hover:bg-red-700 transition">
+      {/* <li className="px-4 py-2 bg-red-600 text-white font-semibold hover:bg-red-700 transition">
   CERTIFICATE OF INSURANCE
-</li>
+</li> */}
 
     </div>
-
+{/* 
 <header className="bg-white shadow">
 <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 <h1 className="text-2xl font-bold text-blue-600">INSURANCE</h1>
@@ -43,7 +44,7 @@ export default function PdfPage() {
 
 </nav>
 </div>
-</header>
+</header> */}
   
 
 
