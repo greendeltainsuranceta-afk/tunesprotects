@@ -6,7 +6,7 @@ const Header = () => {
            
  <div className="navbar shadow-md px-4 bg-white my-4 font-bold py-4 ">
       
-  <div className="mx-[240px] flex gap-4">
+  <div className="xl:mx-[240px] lg:mx-[240px] md:mx-[100px] mx-[10px] flex gap-4">
 
         {/* Left: Logo */}
       <div className="navbar-start">
