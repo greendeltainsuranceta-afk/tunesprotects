@@ -18,9 +18,9 @@ export default function QRGenerator() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "40px" }}>
-      <h2>Enter a Link to Generate QR Code</h2>
+      <h2 className="my-4 font-extrabold">Enter a Link to Generate QR Code</h2>
 
-      <input
+      <input className="border-2"
         type="text"
         value={link}
         placeholder="https://example.com"
@@ -34,7 +34,7 @@ export default function QRGenerator() {
 
       <br />
 
-      <button
+      <button className="bg-red-500 text-white rounded-md my-2"
         onClick={generateQR}
         style={{
           marginTop: "15px",
@@ -51,7 +51,7 @@ export default function QRGenerator() {
           <h3>QR Code:</h3>
           <img src={qrSrc} alt="QR Code" width="250" height="250" />
           <p>
-            <a href={qrSrc} download="qr-code.png">
+            <a className="border-2 px-6 py-2 bg-red-500 text-black" href={qrSrc} download="qr-code.png">
               👉 Download QR Code
             </a>
           </p>
