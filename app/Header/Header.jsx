@@ -37,10 +37,24 @@ const Header = () => {
             <li><a>About</a></li>
             <li>
               <details>
-                <summary>Services</summary>
+                <summary>Services Worldwide</summary>
                 <ul>
                 
-                  <li><a>USA</a></li>
+              <li><a>USA</a></li>
+<li><a>Canada</a></li>
+<li><a>United Kingdom</a></li>
+<li><a>Germany</a></li>
+<li><a>France</a></li>
+<li><a>India</a></li>
+<li><a>China</a></li>
+<li><a>Japan</a></li>
+<li><a>Australia</a></li>
+<li><a>United Arab Emirates</a></li>
+<li><a>Saudi Arabia</a></li>
+<li><a>South Africa</a></li>
+<li><a>Brazil</a></li>
+<li><a>Singapore</a></li>
+
                 </ul>
               </details>
             </li>
@@ -56,15 +70,30 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li><a>Manage & Claims</a></li>
-          <li><a>About</a></li>
+         <li><a>Corporate</a></li>
+                <li><a>Partner</a></li>
 
           {/* Dropdown */}
           <li>
             <details>
-              <summary>Product</summary>
+              <summary>Services Worldwide</summary>
               <ul className="p-2 bg-white w-40">
-                <li><a>Corporate</a></li>
-                <li><a>Partner</a></li>
+                <li><a>USA</a></li>
+<li><a>Canada</a></li>
+<li><a>United Kingdom</a></li>
+<li><a>Germany</a></li>
+<li><a>France</a></li>
+<li><a>India</a></li>
+<li><a>China</a></li>
+<li><a>Japan</a></li>
+<li><a>Australia</a></li>
+<li><a>United Arab Emirates</a></li>
+<li><a>Saudi Arabia</a></li>
+<li><a>South Africa</a></li>
+<li><a>Brazil</a></li>
+<li><a>Singapore</a></li>
+
+           
               </ul>
             </details>
           </li>

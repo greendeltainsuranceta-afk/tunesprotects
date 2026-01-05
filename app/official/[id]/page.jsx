@@ -81,7 +81,7 @@ export default function PdfPage() {
 </div>
 
 <div className="my-[100px]">
- <Image className="w-[70%] mx-auto"
+ <Image className="xl:w-[40%] lg:w-[40%] md:w-[40%]  w-[90%] mx-auto"
       src="https://i.ibb.co/DHDyN7qr/footer-downloadapp-with-qr.png"
       alt="Download App QR"
       width={300}       // pixel value, adjust as needed
