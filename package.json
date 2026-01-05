@@ -12,6 +12,7 @@
     "daisyui": "^5.5.14",
     "formidable": "^3.5.4",
     "gitignore": "^0.7.0",
+    "leaflet": "^1.9.4",
     "next": "16.1.1",
     "qrcode": "^1.5.4",
     "react": "19.2.3",

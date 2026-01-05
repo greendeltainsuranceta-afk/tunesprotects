@@ -5,6 +5,8 @@ import Image from "next/image";
 import Footer from "@/app/Footer/Footer";
 import Header from "@/app/Header/Header";
 
+
+
 export default function PdfPage() {
   const { id } = useParams();
   const [pdf, setPdf] = useState(null);
@@ -170,7 +172,13 @@ US & Canada</p>
 
 </div>
 
+
+
+
+
  </div>
+
+
 
 <Footer></Footer>
     </>
