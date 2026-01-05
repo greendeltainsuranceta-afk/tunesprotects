@@ -13,33 +13,6 @@ export default function PdfPage() {
 
   const pdfList = [
 
-  { "id": "1", "name": "PDF One", "file": "/1.pdf" },
-  { "id": "2", "name": "PDF Two", "file": "/2.pdf" },
-  { "id": "3", "name": "PDF Three", "file": "/3.pdf" },
-  { "id": "4", "name": "PDF Four", "file": "/4.pdf" },
-  { "id": "5", "name": "PDF Five", "file": "/5.pdf" },
-  { "id": "6", "name": "PDF Six", "file": "/6.pdf" },
-  { "id": "7", "name": "PDF Seven", "file": "/7.pdf" },
-  { "id": "8", "name": "PDF Eight", "file": "/8.pdf" },
-  { "id": "9", "name": "PDF Nine", "file": "/9.pdf" },
-  { "id": "10", "name": "PDF Ten", "file": "/10.pdf" },
-  { "id": "11", "name": "PDF Eleven", "file": "/11.pdf" },
-  { "id": "12", "name": "PDF Twelve", "file": "/12.pdf" },
-  { "id": "13", "name": "PDF Thirteen", "file": "/13.pdf" },
-  { "id": "14", "name": "PDF Fourteen", "file": "/14.pdf" },
-  { "id": "15", "name": "PDF Fifteen", "file": "/15.pdf" },
-  { "id": "16", "name": "PDF Sixteen", "file": "/16.pdf" },
-  { "id": "17", "name": "PDF Seventeen", "file": "/17.pdf" },
-  { "id": "18", "name": "PDF Eighteen", "file": "/18.pdf" },
-  { "id": "19", "name": "PDF Nineteen", "file": "/19.pdf" },
-  { "id": "20", "name": "PDF Twenty", "file": "/20.pdf" },
-  { "id": "21", "name": "PDF Twenty-One", "file": "/21.pdf" },
-  { "id": "22", "name": "PDF Twenty-Two", "file": "/22.pdf" },
-  { "id": "23", "name": "PDF Twenty-Three", "file": "/23.pdf" },
-  { "id": "24", "name": "PDF Twenty-Four", "file": "/24.pdf" },
-  { "id": "25", "name": "PDF Twenty-Five", "file": "/25.pdf" },
-
-
 
      { id: "2Q758Z943WmK2d-YEASIN-ARAFAT-T2P-2025-BDB2B-0001346", name: "PDF Two", file: "/YEASIN-RAFAT-T2P-2025-BDB2B-0001346.pdf" },
      { id: "2Q7P8Z9WmK2ertredfsdfsdfsdtrtd-DELWdffsdfsdfAR-HOSSAIN-T2P-2025-BDB2B-0001345", name: "PDF Two", file: "/4.pdf" },
