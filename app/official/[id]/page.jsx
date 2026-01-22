@@ -141,7 +141,7 @@ const pdfList = [
   {
     id: "2Q758Z943WmK2d-HRIDOY-CHANDRA-BISWAS-T2P-2025-BDB2B-0001367",
     url: "https://tunesprotect.com/official/2Q758Z943WmK2d-HRIDOY-CHANDRA-BISWAS-T2P-2025-BDB2B-0001367",
-    file: "/public/iders/HRIDOY-CHANDRA-BISWAS-T2P-2025-BDB2B-0001367-3.pdf"
+    file: "/iders/HRIDOY-CHANDRA-BISWAS-T2P-2025-BDB2B-0001367-3.pdf"
   },
 
   {
