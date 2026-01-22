@@ -145,8 +145,8 @@ const pdfList = [
   },
 
   {
-    id: "2Q758Z943WmK2d-MD.-JAKIR-HOSSEN-T2P-2025-BDB2B-0001370",
-    url: "https://tunesprotect.com/official/2Q758Z943WmK2d-MD.-JAKIR-HOSSEN-T2P-2025-BDB2B-0001370",
+    id: "2Q758Z943WmK2d-MD-JAKIR-HOSSEN-T2P-2025-BDB2B-0001370",
+    url: "https://tunesprotect.com/official/2Q758Z943WmK2d-MD-JAKIR-HOSSEN-T2P-2025-BDB2B-0001370",
     file: "/iders/MD.-JAKIR-HOSSEN-T2P-2025-BDB2B-0001370-4.pdf"
   },
   {
