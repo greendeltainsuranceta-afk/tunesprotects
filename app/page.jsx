@@ -1,14 +1,24 @@
 "use client";
 import { useEffect, useState } from "react";
 import Footer from "./Footer/Footer";
-import Image from "next/image";
+import { useRouter } from "next/navigation";
+
 import Header from "./Header/Header";
 
 export default function Home() {
   const [pdfUrl, setPdfUrl] = useState(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      router.replace("/"); // home page
+    }, 1); // 200ms delay
+
+    return () => clearTimeout(timer);
+  }, [router]);
 
 
-
+router.push("/server-down");
 
 
   return (
@@ -32,7 +42,7 @@ export default function Home() {
     </div> */}
 
   
- <div className="min-h-screen bg-gray-50 text-gray-800">
+ <div className="min-h-screen bg-gray-50 text-gray-800 ">
 {/* Header */}
 {/* <header className="bg-white shadow">
 <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
