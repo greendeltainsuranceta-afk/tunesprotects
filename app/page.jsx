@@ -1,24 +1,20 @@
 "use client";
-import { useEffect, useState } from "react";
-import Footer from "./Footer/Footer";
-import { useRouter } from "next/navigation";
 
+import Footer from "./Footer/Footer";
+import { usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Header from "./Header/Header";
 
 export default function Home() {
-  const [pdfUrl, setPdfUrl] = useState(null);
-  const router = useRouter();
+const router = useRouter();
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      router.replace("/"); // home page
-    }, 1); // 200ms delay
-
-    return () => clearTimeout(timer);
-  }, [router]);
+  const pathname = usePathname();
 
 
-router.push("/server-down");
+
+if (pathname === "/") {
+  router.push("/server-down");
+}
 
 
   return (
