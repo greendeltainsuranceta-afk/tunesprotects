@@ -1,20 +1,11 @@
 "use client";
 
 import Footer from "./Footer/Footer";
-import { usePathname } from "next/navigation";
-import { useRouter } from "next/navigation";
+
 import Header from "./Header/Header";
 
 export default function Home() {
-const router = useRouter();
 
-  const pathname = usePathname();
-
-
-
-if (pathname === "/") {
-  router.push("/server-down");
-}
 
 
   return (
@@ -37,7 +28,7 @@ if (pathname === "/") {
 
     </div> */}
 
-  
+  {/* hhh */}
  <div className="min-h-screen bg-gray-50 text-gray-800 ">
 {/* Header */}
 {/* <header className="bg-white shadow">
