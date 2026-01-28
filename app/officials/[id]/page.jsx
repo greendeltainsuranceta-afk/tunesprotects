@@ -1,6 +1,7 @@
 "use client";
 
 import Footer from "@/app/Footer/Footer";
+import Header from "@/app/Header/Header";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -54,6 +55,8 @@ export default function ReviewPDFs() {
 
   return (
     <div>
+
+      <Header></Header>
         <div className="bg-white">
     
        
