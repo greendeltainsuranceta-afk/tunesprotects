@@ -2,10 +2,11 @@
 
 import Footer from "@/app/Footer/Footer";
 import Image from "next/image";
-import { useEffect, useState, use } from "react";
+import { useParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
-export default function ReviewPDFs({ params }) {
-  const { id } = use(params);
+export default function ReviewPDFs() {
+  const { id } = useParams();
 
   const [pdf, setPdf] = useState(null);
   const [error, setError] = useState("");
