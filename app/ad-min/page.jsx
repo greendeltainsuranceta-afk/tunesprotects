@@ -70,7 +70,7 @@ export default function UploadPDF() {
         {msg && <p className="msg">{msg}</p>}
       </div>
 
-      {/* CSS */}
+      {/* CS....*/}
       <style jsx>{`
         .page {
           min-height: 100vh;
