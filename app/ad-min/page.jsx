@@ -1,41 +1,157 @@
 
 "use client";
 
+import { useState } from "react";
 
-export default function page() {
+export default function UploadPDF() {
+  const [file, setFile] = useState(null);
+  const [customId, setCustomId] = useState("");
+  const [msg, setMsg] = useState("");
+  const [loading, setLoading] = useState(false);
 
+  const uploadPDF = async () => {
+    if (!file) return alert("Select PDF first");
 
-  const uploadPDF = async (e) => {
-    e.preventDefault();
-    const file = e.target.files[0];
     const formData = new FormData();
-    formData.append("file", file);
+    formData.append("pdf", file);
 
+    if (customId.trim()) {
+      formData.append("customId", customId.trim());
+    }
 
-    // const res = await fetch("/upload", {
-    //   method: "POST",
-    //   body: file,
-    // });
+    try {
+      setLoading(true);
+      setMsg("");
 
-    // const data = await res.json();
-    // alert("Uploaded! PDF URL: " + data.url);
-    //   console.log(data)
+      const res = await fetch("https://updated-project-backend.onrender.com/api/pdf/upload", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(text);
+      }
+
+      const data = await res.json();
+      setMsg(`✅ Uploaded successfully! Review: ${data.reviewUrl}`);
+    } catch (err) {
+      console.error("Upload error:", err.message);
+      setMsg("❌ Upload failed");
+    } finally {
+      setLoading(false);
+    }
   };
 
-
-
   return (
-    <div className="flex justify-center items-center h-dvh">
-       <form onSubmit={uploadPDF} className="text-center">
-<div>
-        <input className="border-1 border-[#d8d8d8]" type="file" name="file" required /></div>
-<div>
-        <button className="bg-orange-600 px-6 cursor-pointer my-2 py-2 text-white" type="submit">Upload</button>
-</div>
+    <div className="page text-black">
+      <div className="card">
+        <h2>📄 Upload PDF</h2>
 
+        <label className="label ">Select PDF</label>
+        <input
+          type="file"
+          accept="application/pdf"
+          onChange={(e) => setFile(e.target.files[0])}
+        />
 
+        <label className="label ">Custom ID (optional)</label>
+        <input
+          type="text"
+          placeholder="example: my-pdf-123"
+          value={customId}
+          onChange={(e) => setCustomId(e.target.value)}
+        />
 
-    </form>
+        <button onClick={uploadPDF} disabled={loading}>
+          {loading ? "Uploading..." : "Upload PDF"}
+        </button>
+
+        {msg && <p className="msg">{msg}</p>}
+      </div>
+
+      {/* CSS */}
+      <style jsx>{`
+        .page {
+          min-height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 16px;
+          background: linear-gradient(135deg, #eef2ff, #f8fafc);
+        }
+
+        .card {
+          width: 100%;
+          max-width: 420px;
+          background: #fff;
+          padding: 24px;
+          border-radius: 14px;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+        }
+
+        h2 {
+          text-align: center;
+          margin-bottom: 10px;
+        }
+
+        .label {
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        input[type="file"],
+        input[type="text"] {
+          padding: 10px;
+          border-radius: 8px;
+          border: 1px solid #d1d5db;
+          font-size: 14px;
+          width: 100%;
+        }
+
+        input:focus {
+          outline: none;
+          border-color: #6366f1;
+        }
+
+        button {
+          margin-top: 10px;
+          padding: 12px;
+          border-radius: 10px;
+          border: none;
+          font-size: 15px;
+          font-weight: 600;
+          cursor: pointer;
+          background: #6366f1;
+          color: white;
+          transition: 0.2s;
+        }
+
+        button:hover {
+          background: #4f46e5;
+        }
+
+        button:disabled {
+          background: #a5b4fc;
+          cursor: not-allowed;
+        }
+
+        .msg {
+          margin-top: 10px;
+          font-size: 14px;
+          text-align: center;
+          word-break: break-all;
+        }
+
+        @media (max-width: 480px) {
+          .card {
+            padding: 18px;
+          }
+        }
+      `}</style>
     </div>
   );
 }
