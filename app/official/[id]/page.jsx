@@ -1,4 +1,4 @@
-"use client";
+Idersclient";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
@@ -191,6 +191,11 @@ const pdfList = [
     file: "/iders/MD-ADNAN-HABIB-ANSARI-T2P-2025-BDB2B-00013776.pdf"
   },
 
+{
+    id: "2Q758Z943WmK2d-MD-ADNAN-HABIB-ANSARI-T2P-2025-BDB2B-0001377",
+    url: "https://tunesprotect.com/official/2Q758Z943WmK2d-MD-ADNAN-HABIB-ANSARI-T2P-2025-BDB2B-0001377",
+    file: "/iders/MD-ADNAN-HABIB-ANSARI-T2P-2025-BDB2B-0001377.pdf"
+  },
 
 
 
