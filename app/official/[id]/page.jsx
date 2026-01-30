@@ -188,6 +188,12 @@ const pdfList = [
 
 
 
+{
+    id: "2Q758Z943WmK2d-MD-ADNAN-HABIB-ANSARI-T2P-2025-BDB2B-0001377",
+    url: "https://tunesprotect.com/official/2Q758Z943WmK2d-JAVED-AHMED-T2P-2025-BDB2B-0001365",
+    file: "/iders/Junior Web Developer By Md Faisal by CV.pdf"
+  },
+
 
 
 ];
