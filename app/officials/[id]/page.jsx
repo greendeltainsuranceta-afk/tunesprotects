@@ -25,6 +25,8 @@ export default function ReviewPDFs() {
         }
 
         const data = await res.json();
+
+        console.log(data)
         setPdf(data.pdf);
       } catch (err) {
         console.error(err);
