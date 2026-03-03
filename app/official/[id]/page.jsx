@@ -8,7 +8,7 @@ import Header from "@/app/Header/Header";
 
 // ..
 export default function PdfPage() {
-  const {} = useParams();
+  const {id} = useParams();
   const [pdf, setPdf] = useState(null);
 
 const pdfList = [
