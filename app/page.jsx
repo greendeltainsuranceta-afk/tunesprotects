@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
 
-
-<Header className="hidden"></Header>
+<div className="hidden">
+<Header> </Header>
 
 {/* header */}
 
@@ -110,7 +110,7 @@ Contact Us
    
 
 <Footer></Footer>
-
+</div>
     </>
   );
 }
