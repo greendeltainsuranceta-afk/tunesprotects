@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
 
-<div className="invisible">
+<div>
 <Header> </Header>
 
 {/* header */}
