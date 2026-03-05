@@ -12,7 +12,7 @@ export default function Home() {
     <>
 
 
-<Header></Header>
+<Header className="hidden"></Header>
 
 {/* header */}
 
