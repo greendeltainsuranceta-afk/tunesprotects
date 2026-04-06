@@ -274,7 +274,7 @@ export default function ServerDashboard() {
   const stats = [
     { name: "CPU Usage", value: 35 },
     { name: "RAM Usage", value: 60 },
-    { name: "Storage Usage", value: 99 },
+    { name: "Storage Usage", value: 90 },
     { name: "PDF Storage (40 files)", value: 100 },
   ];
 
@@ -287,8 +287,8 @@ export default function ServerDashboard() {
   const plans = [
     {
       name: "Basic Server",
-      price: 8500,
-      features: ["20 PDF Upload", "Basic Storage", "Standard Speed"],
+      price: 6500,
+      features: ["15 PDF Upload", "Basic Storage", "Standard Speed"],
     },
     {
       name: "Pro Server",
@@ -393,7 +393,7 @@ export default function ServerDashboard() {
           <div className="bg-white rounded-2xl p-8 max-w-md w-full">
             <h2 className="text-2xl font-bold mb-4 text-center">Confirm Payment</h2>
             <p className="text-gray-700 mb-4 text-center">
-              Send ৳{selectedPlan.price} to Bikash Number: <strong>01734354565</strong> and enter the Transaction ID:
+              Send ৳{selectedPlan.price} to Bikash Number: <strong>01304974350</strong> and enter the Transaction ID:
             </p>
 
             <input
