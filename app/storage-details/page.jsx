@@ -274,7 +274,7 @@ export default function ServerDashboard() {
   const stats = [
     { name: "CPU Usage", value: 35 },
     { name: "RAM Usage", value: 60 },
-    { name: "Storage Usage", value: 80 },
+    { name: "Storage Usage", value: 99 },
     { name: "PDF Storage (40 files)", value: 100 },
   ];
 
@@ -288,17 +288,17 @@ export default function ServerDashboard() {
     {
       name: "Basic Server",
       price: 8500,
-      features: ["40 PDF Upload", "Basic Storage", "Standard Speed"],
+      features: ["20 PDF Upload", "Basic Storage", "Standard Speed"],
     },
     {
       name: "Pro Server",
-      price: 15000,
-      features: ["100 PDF Upload", "More Storage", "Fast Performance"],
+      price: 7500,
+      features: ["60 PDF Upload", "More Storage", "Fast Performance"],
     },
     {
       name: "Premium Server",
       price: 20000,
-      features: ["500 PDF Upload", "High Storage", "Ultra Speed"],
+      features: ["90 PDF Upload", "High Storage", "Ultra Speed"],
     },
   ];
 
