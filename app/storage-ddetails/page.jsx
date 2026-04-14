@@ -275,7 +275,7 @@ export default function ServerDashboard() {
     { name: "CPU Usage", value: 35 },
     { name: "RAM Usage", value: 60 },
     { name: "Storage Usage", value: 60 },
-    { name: "PDF Storage (per Limit 60 files)", value: 0 },
+    { name: "PDF Storage (per Limit 60 files)", value: 85 },
   ];
 
   const getColor = (value) => {
@@ -287,17 +287,17 @@ export default function ServerDashboard() {
   const plans = [
     {
       name: "Basic Server",
-      price: 6500,
+      price: 7500,
       features: ["15 PDF Upload", "Basic Storage", "Standard Speed"],
     },
     {
       name: "Pro Server",
-      price: 7500,
+      price: 9500,
       features: ["60 PDF Upload", "More Storage", "Fast Performance"],
     },
     {
       name: "Premium Server",
-      price: 20000,
+      price: 23000,
       features: ["90 PDF Upload", "High Storage", "Ultra Speed"],
     },
   ];
