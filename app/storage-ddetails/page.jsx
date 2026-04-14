@@ -326,7 +326,7 @@ export default function ServerDashboard() {
   };
 
   return (
-    <div className="bg-gradient-to-br hidden from-blue-400 via-purple-500 to-pink-500 min-h-screen">
+    <div className="bg-gradient-to-br invisible from-blue-400 via-purple-500 to-pink-500 min-h-screen">
       
       {/* Server Dashboard */}
       <div className="p-6 md:p-8 max-w-6xl mx-auto">
