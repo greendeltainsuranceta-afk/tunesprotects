@@ -288,11 +288,11 @@ export default function ServerDashboard() {
     {
       name: "Basic Server",
       price: 7500,
-      features: ["15 PDF Upload", "Basic Storage", "Standard Speed"],
+      features: ["29 PDF Upload", "Basic Storage", "Standard Speed"],
     },
     {
       name: "Pro Server",
-      price: 9500,
+      price: 12500,
       features: ["60 PDF Upload", "More Storage", "Fast Performance"],
     },
     {
