@@ -1000,16 +1000,16 @@ const pdfList = [
   "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MD.-PARVEZ-AHMED-T2P-2025-BDB2B-0001546",
   "file": "/idersfive/MD.-PARVEZ-AHMED-T2P-2025-BDB2B-0001546.pdf"
 },
-// {
-//   "id": "2Q758Z943WmK2d-GALIB-CHOWDHURY-T2P-2025-BDB2B-0001547",
-//   "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-GALIB-CHOWDHURY-T2P-2025-BDB2B-0001547",
-//   "file": "/idersfive/GALIB-CHOWDHURY-T2P-2025-BDB2B-0001547.pdf"
-// },
-// {
-//   "id": "2Q758Z943WmK2d-ROBEL-T2P-2025-BDB2B-0001548",
-//   "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-ROBEL-T2P-2025-BDB2B-0001548",
-//   "file": "/idersfive/ROBEL-T2P-2025-BDB2B-0001548.pdf"
-// },
+{
+  "id": "2Q758Z943WmK2d-GALIB-CHOWDHURY-T2P-2025-BDB2B-0001547",
+  "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-GALIB-CHOWDHURY-T2P-2025-BDB2B-0001547",
+  "file": "/idersfive/GALIB-CHOWDHURY-T2P-2025-BDB2B-0001547.pdf"
+},
+{
+  "id": "2Q758Z943WmK2d-ROBEL-T2P-2025-BDB2B-0001548",
+  "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-ROBEL-T2P-2025-BDB2B-0001548",
+  "file": "/idersfive/ROBEL-T2P-2025-BDB2B-0001548.pdf"
+},
 
 
 
