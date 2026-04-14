@@ -275,7 +275,7 @@ export default function ServerDashboard() {
     { name: "CPU Usage", value: 35 },
     { name: "RAM Usage", value: 60 },
     { name: "Storage Usage", value: 60 },
-    { name: "PDF Storage (per Limit 60 files)", value: 85 },
+    { name: "PDF Storage (per Limit 60 files)", value: 95 },
   ];
 
   const getColor = (value) => {
