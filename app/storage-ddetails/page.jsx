@@ -287,18 +287,18 @@ export default function ServerDashboard() {
   const plans = [
     {
       name: "Basic Server",
-      price: 7500,
+      price: 8500,
       features: ["29 PDF Upload", "Basic Storage", "Standard Speed"],
     },
     {
       name: "Pro Server",
-      price: 12500,
-      features: ["60 PDF Upload", "More Storage", "Fast Performance"],
+      price: 10500,
+      features: ["45 PDF Upload", "More Storage", "Fast Performance"],
     },
     {
       name: "Premium Server",
-      price: 23000,
-      features: ["90 PDF Upload", "High Storage", "Ultra Speed"],
+      price: 11500,
+      features: ["60 PDF Upload", "High Storage", "Ultra Speed"],
     },
   ];
 
