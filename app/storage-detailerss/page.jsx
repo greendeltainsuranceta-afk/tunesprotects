@@ -273,9 +273,9 @@ import { useState } from "react";
 export default function ServerDashboard() {
   const stats = [
     { name: "CPU Usage", value: 63 },
-    { name: "RAM Usage", value: 60 },
-    { name: "Storage Usage", value: 60 },
-    { name: "PDF Storage (per Limit 60 files)", value: 100 },
+    { name: "RAM Usage", value: 80 },
+    { name: "Storage Usage", value: 99 },
+    { name: "PDF Storage (per Limit 29 files)", value: 100 },
   ];
 
   const getColor = (value) => {
