@@ -272,10 +272,10 @@ import { useState } from "react";
 
 export default function ServerDashboard() {
   const stats = [
-    { name: "CPU Usage", value: 63 },
-    { name: "RAM Usage", value: 80 },
-    { name: "Storage Usage", value: 99 },
-    { name: "PDF Storage (per Limit 29 files)", value: 100 },
+    { name: "CPU Usage", value: 45 },
+    { name: "RAM Usage", value: 20 },
+    { name: "Storage Usage", value: 60 },
+    { name: "PDF Storage (per Limit 60 files)", value: 100 },
   ];
 
   const getColor = (value) => {
@@ -326,7 +326,7 @@ export default function ServerDashboard() {
   };
 
   return (
-    <div className="bg-gradient-to-br  from-blue-400 via-purple-500 to-pink-500 min-h-screen">
+    <div className="bg-gradient-to-br invisible  from-blue-400 via-purple-500 to-pink-500 min-h-screen">
       
       {/* Server Dashboard */}
       <div className="p-6 md:p-8 max-w-6xl mx-auto">
