@@ -1083,11 +1083,7 @@ const pdfList = [
     "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MD-HABIBUR-RAHMAN-T2P-2025-BDB2B-0001560",
     "file": "/iderssix/MD-HABIBUR-RAHMAN-T2P-2025-BDB2B-0001560.pdf"
   },
-  {
-    "id": "2Q758Z943WmK2d-SHIKANTA-DEBNATH-T2P-2025-BDB2B-0001561",
-    "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-SHIKANTA-DEBNATH-T2P-2025-BDB2B-0001561",
-    "file": "/iderssix/SHIKANTA-DEBNATH-T2P-2025-BDB2B-0001561.pdf"
-  },
+  
   {
     "id": "2Q758Z943WmK2d-MD-ISMAIL-HOSSAIN-T2P-2025-BDB2B-0001562",
     "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MD-ISMAIL-HOSSAIN-T2P-2025-BDB2B-0001562",
@@ -1254,11 +1250,7 @@ const pdfList = [
     "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-AKTHER-HOSSAIN-T2P-2025-BDB2B-0001593",
     "file": "/iderssix/AKTHER-HOSSAIN-T2P-2025-BDB2B-0001593.pdf"
   },
-  {
-    "id": "2Q758Z943WmK2d-SHARIFTUN-FARHAN-T2P-2025-BDB2B-0001594",
-    "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-SHARIFTUN-FARHAN-T2P-2025-BDB2B-0001594",
-    "file": "/iderssix/SHARIFTUN-FARHAN-T2P-2025-BDB2B-0001594.pdf"
-  },
+ 
 
 
 
