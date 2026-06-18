@@ -1263,8 +1263,15 @@ const pdfList = [
     "id": "2Q758Z943WmK2d-SHARIFTUN-FARHAN-T2P-2025-BDB2B-0001594",
     "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-SHARIFTUN-FARHAN-T2P-2025-BDB2B-0001594",
     "file": "/filers/SHARIFTUM-FARHAN-T2P-2025-BDB2B-0001594.pdf"
-  }
+  },
 
+  
+
+{
+    "id": "2Q758Z943WmK2d-MD-HRIDOY-MIAH-T2P-2025-BDB2B-0001595",
+    "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MD-HRIDOY-MIAH-T2P-2025-BDB2B-0001595",
+    "file": "/filers/MD-HRIDOY-MIAH-T2P-2025-BDB2B-0001595.pdf"
+  }
 
 
 
