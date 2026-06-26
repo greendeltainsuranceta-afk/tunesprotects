@@ -1283,9 +1283,13 @@ const pdfList = [
     "id": "2Q758Z943WmK2d-REDUAN-AHMED-T2P-2025-BDB2B-0001596",
     "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-REDUAN-AHMED-T2P-2025-BDB2B-0001596",
     "file": "/filers/REDUAN-AHMED-T2P-2025-BDB2B-0001596-1.pdf"
+  },
+
+{
+    "id": "2Q758Z943WmK2d-RIFAT-HOSSAIN-T2P-2026-BDB2B-0001597",
+    "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-RIFAT-HOSSAIN-T2P-2026-BDB2B-0001597",
+    "file": "/filers/RIFAT-HOSSAIN-T2P-2026-BDB2B-0001597.pdf"
   }
-
-
 
 
 ];
