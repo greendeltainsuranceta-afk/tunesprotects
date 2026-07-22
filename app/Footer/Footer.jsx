@@ -29,7 +29,7 @@ export default function Footer() {
           <h3 className="font-semibold mb-2">Download Our App</h3>
           <div className="relative w-32 h-32">
             <Image
-              src="https://ibb.co.com/MxywMhZD"
+              src="https://i.ibb.co.com/4nwvPfKZ/footer-downloadapp-with-qr.png"
               alt="Download App QR"
               fill
               style={{ objectFit: "contain" }}
