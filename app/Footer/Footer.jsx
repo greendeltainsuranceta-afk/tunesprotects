@@ -29,7 +29,7 @@ export default function Footer() {
           <h3 className="font-semibold mb-2">Download Our App</h3>
           <div className="relative w-32 h-32">
             <Image
-              src="https://www.tunesprotect.com/_next/image?url=https%3A%2F%2Fi.ibb.co%2FDHDyN7qr%2Ffooter-downloadapp-with-qr.png&w=384&q=75"
+              src="https://ibb.co.com/MxywMhZD"
               alt="Download App QR"
               fill
               style={{ objectFit: "contain" }}
