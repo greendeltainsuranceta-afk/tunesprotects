@@ -1,0 +1,19 @@
+npm install
+jsx install
+git install
+
+
+
+vs code - open
+pdf - upload
+data - bosa
+
+
+comand
+
+git add .
+git commit -m"ok"
+git push 
+
+
+

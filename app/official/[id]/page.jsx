@@ -1567,6 +1567,12 @@ const pdfList = [
   "file": "/asdfg/MD-MUBIN-CHOWDHURY-OBI-T2P-2025-BDB2B-0001641.pdf"
 },
 
+{
+  "id": "2Q758Z943WmK2d-RIPON-AHMAD-T2P-2025-BDB2B-0001642",
+  "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-RIPON-AHMAD-T2P-2025-BDB2B-0001642",
+  "file": "/asdfg/RIPON-AHMAD-T2P-2025-BDB2B-0001642.pdf"
+}
+
 
 
 
