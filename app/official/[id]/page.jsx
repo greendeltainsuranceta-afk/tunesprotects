@@ -1582,11 +1582,6 @@ const pdfList = [
 
 ];
 
-// bb....jhykj555555jkaahydddt1fhhff....DDFD
-//555
-
-darkModedhak
-kdkae
 
 
   useEffect(() => {
