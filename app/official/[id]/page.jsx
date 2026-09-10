@@ -4,6 +4,8 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import Footer from "@/app/Footer/Footer";
 import Header from "@/app/Header/Header";
+import { getDraftModeProviderForCacheScope } from "next/dist/server/app-render/work-unit-async-storage.external";
+import { darkMode } from "@/tailwind.config";
 
 
 // ...ssssss
@@ -1566,23 +1568,29 @@ const pdfList = [
   "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MD-MUBIN-CHOWDHURY-OBI-T2P-2025-BDB2B-0001641",
   "file": "/asdfg/MD-MUBIN-CHOWDHURY-OBI-T2P-2025-BDB2B-0001641.pdf"
 },
-
 {
   "id": "2Q758Z943WmK2d-RIPON-AHMAD-T2P-2025-BDB2B-0001642",
   "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-RIPON-AHMAD-T2P-2025-BDB2B-0001642",
   "file": "/asdfg/RIPON-AHMAD-T2P-2025-BDB2B-0001642.pdf"
 },
-{
-  "id": "2Q758Z943WmK2d-MST.-HIMU-BEGUM-T2P-2025-BDB2B-0001642",
-  "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MST.-HIMU-BEGUM-T2P-2025-BDB2B-0001642",
-  "file": "/asdfg/MST.-HIMU-BEGUM-T2P-2025-BDB2B-0001642.pdf"
+
+  {
+  "id": "2Q758Z943WmK2d-MST.-HIMU-BEGUM-T2P-2026-BDB2B-0001643",
+  "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MST.-HIMU-BEGUM-T2P-2026-BDB2B-0001643",
+  "file": "/nnee/MST.-HIMU-BEGUM-T2P-2026-BDB2B-0001643.pdf"
 },
+
+
+
+
 ];
 
-// bb....jhykj555555jkaahydddt1fhhff....
+// bb....jhykj555555jkaahydddt1fhhff....DDFD
+//555
 
+darkModedhak
+kdkae
 
-  
 
   useEffect(() => {
     const selectedPdf = pdfList.find((p) => p.id === id);
