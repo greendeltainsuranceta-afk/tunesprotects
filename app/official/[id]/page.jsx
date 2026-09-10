@@ -1573,12 +1573,6 @@ const pdfList = [
   "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-RIPON-AHMAD-T2P-2025-BDB2B-0001642",
   "file": "/asdfg/RIPON-AHMAD-T2P-2025-BDB2B-0001642.pdf"
 },
-  {
-  "id": "2Q758Z943WmK2d-MST.-HIMU-BEGUM-T2P-2026-BDB2B-0001643",
-  "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MST.-HIMU-BEGUM-T2P-2026-BDB2B-0001643",
-  "file": "/nnee/MST.-HIMU-BEGUM-T2P-2026-BDB2B-0001643.pdf"
-},
-
 
 ];
 
