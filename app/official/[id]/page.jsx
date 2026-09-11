@@ -1591,8 +1591,10 @@ useEffect(() => {
 
   const selectedPdf = pdfList.find((item) => item.id === id);
 
-  setPdf(selectedPdf || null);
+  setPdf(selectedPdf);
+  
 }, [id]);
+  
   
   return (
     <>
