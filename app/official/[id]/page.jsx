@@ -6,7 +6,7 @@ import Footer from "@/app/Footer/Footer";
 import Header from "@/app/Header/Header";
 
 
-
+impo der from "@/app/Heahhhder/Header";
 // ...ssssss
 export default function PdfPage() {
   const {id} = useParams();
