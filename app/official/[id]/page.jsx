@@ -1584,7 +1584,7 @@ const pdfList = [
 
 ];
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 // bb....jhykj555555jkaahydddt1fhhff....DDFDJJJJ
 //555
 
@@ -1592,7 +1592,7 @@ const pdfList = [
 
 
 
-=======
+//=======
 
 
 
