@@ -1606,7 +1606,7 @@ useEffect(() => {
 }, [id]);
   
   
->>>>>>> 7554516244acff7431ec90e82fdc0d916ee1fb3d
+//>>>>>>> 7554516244acff7431ec90e82fdc0d916ee1fb3d
   return (
     <>
 <Header></Header>
