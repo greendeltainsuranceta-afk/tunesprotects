@@ -6,7 +6,8 @@ import Footer from "@/app/Footer/Footer";
 import Header from "@/app/Header/Header";
 
 
-impo der from "@/app/Heahhhder/Header";
+import { getDraftModeProviderForCacheScope } from "next/dist/server/app-render/work-unit-async-storage.external";import { darkMode } from "@/tailwind.config";
+
 // ...ssssss
 export default function PdfPage() {
   const {id} = useParams();
