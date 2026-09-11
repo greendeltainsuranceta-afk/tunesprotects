@@ -3,29 +3,18 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 
-JavaScript
-const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'example.com', // আপনার প্রয়োজনীয় ডোমেইনটি এখানে দিন
-      },
-    ],
-  },
-};
-
-
-
-
 import Footer from "@/app/Footer/Footer";
 import Header from "@/app/Header/Header";
 
 
-import { getDraftModeProviderForCacheScope } from "next/dist/server/app-render/work-unit-async-storage.external";import { darkMode } from "@/tailwind.config";
 
 // ...ssssss
 export default function PdfPage() {
+
+
+  const params = useParams();
+  const id = params?.id;
+  const [pdf, setPdf] = useState(null);
   
 const pdfList = [
   {
@@ -1595,6 +1584,7 @@ const pdfList = [
 
 ];
 
+<<<<<<< HEAD
 // bb....jhykj555555jkaahydddt1fhhff....DDFDJJJJ
 //555
 
@@ -1602,6 +1592,21 @@ const pdfList = [
 
 
 
+=======
+
+
+
+useEffect(() => {
+
+
+  const selectedPdf = pdfList.find((item) => item.id === id);
+
+  setPdf(selectedPdf);
+  
+}, [id]);
+  
+  
+>>>>>>> 7554516244acff7431ec90e82fdc0d916ee1fb3d
   return (
     <>
 <Header></Header>
