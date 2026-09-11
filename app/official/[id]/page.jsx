@@ -1587,7 +1587,7 @@ const pdfList = [
 
 
 useEffect(() => {
-  if (!id) return
+ 
 
   const selectedPdf = pdfList.find((p) => p.id === id);
 
