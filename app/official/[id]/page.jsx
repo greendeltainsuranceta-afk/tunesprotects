@@ -10,9 +10,7 @@ import { getDraftModeProviderForCacheScope } from "next/dist/server/app-render/w
 
 // ...ssssss
 export default function PdfPage() {
-  const {id} = useParams();
-  const [pdf, setPdf] = useState(null);
-
+  
 const pdfList = [
   {
     id: "2Q758Z943WmK2d-ADE-MAHMUD-NAYEM-T2P-2025-BDB2B-0001362",
@@ -1587,10 +1585,6 @@ const pdfList = [
 
 
 
-  useEffect(() => {
-    const selectedPdf = pdfList.find((p) => p.id === id);
-    setPdf(selectedPdf);
-  }, [id]);
 
   return (
     <>
