@@ -4,8 +4,7 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import Footer from "@/app/Footer/Footer";
 import Header from "@/app/Header/Header";
-import { getDraftModeProviderForCacheScope } from "next/dist/server/app-render/work-unit-async-storage.external";
-import { darkMode } from "@/tailwind.config";
+
 
 
 // ...ssssss
