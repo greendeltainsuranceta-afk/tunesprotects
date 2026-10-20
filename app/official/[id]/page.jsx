@@ -1589,20 +1589,17 @@ const pdfList = [
 {
   "id": "2Q758Z943WmK2d-MOHAMMAD-IFTEKHAR-AHMED-FAHIM-T2P-2026-BDB2B-0001644",
   "url": "https://www.tunesprotect.com/official/2Q758Z943WmK2d-MOHAMMAD-IFTEKHAR-AHMED-FAHIM-T2P-2026-BDB2B-0001644",
-  "file": "new/MOHAMMAD-IFTEKHAR-AHMED-FAHIM-T2P-2026-BDB2B-0001644.pdf"
+  "file": "/new/MOHAMMAD-IFTEKHAR-AHMED-FAHIM-T2P-2026-BDB2B-0001644.pdf"
 },
   
 ];
 
-//<<<<<<< HEAD
-// bb....jhykj555555jkaahydddt1fhhff....DDFDJJJJ
-//555
 
 
 
 
 
-//=======
+
 
 
 
